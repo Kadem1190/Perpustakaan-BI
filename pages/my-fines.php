@@ -34,12 +34,13 @@ foreach ($fines as $fine) {
 </div>
 
 <!-- Summary Cards -->
+<!-- 
 <div class="row mb-4">
     <div class="col-md-6">
         <div class="card border-danger h-100">
             <div class="card-body">
                 <h5 class="card-title text-danger">Outstanding Fines</h5>
-                <h2 class="mb-0">Rp <?php echo number_format($totalUnpaid, 0, ',', '.'); ?></h2>
+                <h2 class="mb-0">Rp <php echo number_format($totalUnpaid, 0, ',', '.'); ?></h2>
             </div>
         </div>
     </div>
@@ -47,11 +48,12 @@ foreach ($fines as $fine) {
         <div class="card border-success h-100">
             <div class="card-body">
                 <h5 class="card-title text-success">Paid Fines</h5>
-                <h2 class="mb-0">Rp <?php echo number_format($totalPaid, 0, ',', '.'); ?></h2>
+                <h2 class="mb-0">Rp <php echo number_format($totalPaid, 0, ',', '.'); ?></h2>
             </div>
         </div>
     </div>
-</div>
+</div> 
+-->
 
 <!-- Fines Table -->
 <div class="card">
