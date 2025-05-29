@@ -1,10 +1,9 @@
 <?php
 // Database configuration
-$host = getenv("MYSQL_ADDON_HOST");
-$dbname = getenv("MYSQL_ADDON_DB");
-$port = getenv("MYSQL_ADDON_PORT");
-$username = getenv("MYSQL_ADDON_USER");
-$password = getenv("MYSQL_ADDON_PASSWORD");
+$host = 'localhost';
+$dbname = 'db_library';
+$username = 'root';
+$password = '';
 
 // Timezone setting
 date_default_timezone_set('Asia/Jakarta');
